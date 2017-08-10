@@ -287,11 +287,11 @@
                             [
                                 "#!/bin/bash\n",
                                 "sudo yum -y update\n",
-                                "sudo yum -y install httpd php php-mysql mariadb-server\n",
-                                "sudo systemctl start httpd\n",
+                                "sudo yum -y install httpd mariadb-server php php-mysql\n",
                                 "sudo systemctl enable httpd\n",
-                                "sudo systemctl start mariadb",
+                                "sudo systemctl start httpd\n",
                                 "sudo systemctl enable mariadb"
+                                "sudo systemctl start mariadb",
                             ]
                         ]
                     }
