@@ -290,7 +290,7 @@
                                 "sudo yum -y install httpd mariadb-server php php-mysql\n",
                                 "sudo systemctl enable httpd\n",
                                 "sudo systemctl start httpd\n",
-                                "sudo systemctl enable mariadb"
+                                "sudo systemctl enable mariadb\n"
                                 "sudo systemctl start mariadb",
                             ]
                         ]
